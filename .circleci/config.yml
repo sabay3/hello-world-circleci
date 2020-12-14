@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     # Primary container image
-    machine:
+    docker:
        - image: circleci/ruby:2.5.8
 
     # Service container image
